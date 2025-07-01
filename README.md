@@ -28,6 +28,26 @@ project-root/
 4. When the email is opened, the pixel is loaded.
 5. The backend server logs that the email was opened (email ID and timestamp).
 
+## Setup Instructions
+🔹 Extension (Frontend)
+-Open Firefox and navigate to: about:debugging
+-Click "This Firefox" → "Load Temporary Add-on"
+-Select the manifest.json file from the extension/ folder
+-Extension icon will appear in the Firefox toolbar
+
+🔸 Backend (Node.js)
+- Navigate to the server directory
+- Install dependencies:
+bash
+Copy
+Edit
+- Start the server:
+bash
+Copy
+Edit
+The server runs at http://localhost:5000 by default.
+
+
 ## Tech Stack
 - Firefox Extension (manifest v2)
 - HTML/CSS/JS (popup)
