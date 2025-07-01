@@ -3,12 +3,12 @@
 A lightweight Firefox extension to track when your email has been opened, similar to Mailtrack — built specifically for Mozilla Firefox.
 
  ## Features
--One-click tracking pixel copy
--Tracks if the recipient opens the email
--Logs timestamp and email ID when the pixel is triggered
--Built using:
--Firefox WebExtension API
--Node.js (backend)
+- One-click tracking pixel copy
+- Tracks if the recipient opens the email
+- Logs timestamp and email ID when the pixel is triggered
+- Built using:
+- Firefox WebExtension API
+- Node.js (backend)
 
 project-root/
 ├── extension/
@@ -30,10 +30,10 @@ project-root/
 
 ## Setup Instructions
 🔹 Extension (Frontend)
--Open Firefox and navigate to: about:debugging
--Click "This Firefox" → "Load Temporary Add-on"
--Select the manifest.json file from the extension/ folder
--Extension icon will appear in the Firefox toolbar
+- Open Firefox and navigate to: about:debugging
+- Click "This Firefox" → "Load Temporary Add-on"
+- Select the manifest.json file from the extension/ folder
+- Extension icon will appear in the Firefox toolbar
 
 🔸 Backend (Node.js)
 - Navigate to the server directory
